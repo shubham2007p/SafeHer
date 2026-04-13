@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_shield"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/contactsFragment"
+        android:icon="@drawable/ic_people"
+        android:title="@string/nav_contacts" />
+    <item
+        android:id="@+id/locationFragment"
+        android:icon="@drawable/ic_location"
+        android:title="@string/nav_location" />
+    <item
+        android:id="@+id/fakeCallFragment"
+        android:icon="@drawable/ic_phone"
+        android:title="@string/nav_fake_call" />
+    <item
+        android:id="@+id/tipsFragment"
+        android:icon="@drawable/ic_book"
+        android:title="@string/nav_tips" />
+    <item
+        android:id="@+id/checkInFragment"
+        android:icon="@drawable/ic_clock"
+        android:title="@string/nav_checkin" />
+</menu>
