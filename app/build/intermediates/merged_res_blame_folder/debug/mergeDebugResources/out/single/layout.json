@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.safeguard.app-mergeDebugResources-51:/layout/fragment_home.xml",
+        "source": "com.safeguard.app-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.safeguard.app-mergeDebugResources-51:/layout/fragment_fake_call.xml",
+        "source": "com.safeguard.app-main-54:/layout/fragment_fake_call.xml"
+    },
+    {
+        "merged": "com.safeguard.app-mergeDebugResources-51:/layout/fragment_tips.xml",
+        "source": "com.safeguard.app-main-54:/layout/fragment_tips.xml"
+    },
+    {
+        "merged": "com.safeguard.app-mergeDebugResources-51:/layout/activity_fake_call.xml",
+        "source": "com.safeguard.app-main-54:/layout/activity_fake_call.xml"
+    },
+    {
+        "merged": "com.safeguard.app-mergeDebugResources-51:/layout/fragment_contacts.xml",
+        "source": "com.safeguard.app-main-54:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.safeguard.app-mergeDebugResources-51:/layout/item_contact.xml",
+        "source": "com.safeguard.app-main-54:/layout/item_contact.xml"
+    },
+    {
+        "merged": "com.safeguard.app-mergeDebugResources-51:/layout/fragment_check_in.xml",
+        "source": "com.safeguard.app-main-54:/layout/fragment_check_in.xml"
+    },
+    {
+        "merged": "com.safeguard.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.safeguard.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.safeguard.app-mergeDebugResources-51:/layout/fragment_location.xml",
+        "source": "com.safeguard.app-main-54:/layout/fragment_location.xml"
+    },
+    {
+        "merged": "com.safeguard.app-mergeDebugResources-51:/layout/dialog_add_contact.xml",
+        "source": "com.safeguard.app-main-54:/layout/dialog_add_contact.xml"
+    }
+]

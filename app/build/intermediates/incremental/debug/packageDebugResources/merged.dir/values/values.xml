@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F5F3FF</color>
+    <color name="black">#000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="green_active">#16A34A</color>
+    <color name="green_light">#DCFCE7</color>
+    <color name="nav_selected">#7C3AED</color>
+    <color name="nav_unselected">#9CA3AF</color>
+    <color name="purple_dark">#6D28D9</color>
+    <color name="purple_light">#EDE9FE</color>
+    <color name="purple_primary">#7C3AED</color>
+    <color name="purple_ultra_light">#F5F3FF</color>
+    <color name="red_dark">#B91C1C</color>
+    <color name="red_light">#FEE2E2</color>
+    <color name="red_sos">#DC2626</color>
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="white">#FFFFFF</color>
+    <string name="accept">Accept</string>
+    <string name="add_emergency_contact">Add Emergency Contact</string>
+    <string name="app_name">SafeGuard</string>
+    <string name="call_delay">Call Delay</string>
+    <string name="caller_name">Caller Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="check_in_subtitle">Set a safety timer. If you don\'t check in, your contacts will be alerted.</string>
+    <string name="check_in_title">Check-In</string>
+    <string name="decline">Decline</string>
+    <string name="delete">Delete</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="emergency_contacts_count">%d Emergency Contacts</string>
+    <string name="emergency_contacts_subtitle">Add trusted contacts who will be notified in case of emergency</string>
+    <string name="fake_call_subtitle">Simulate a phone call to help you exit uncomfortable situations</string>
+    <string name="fake_call_title">Fake Call</string>
+    <string name="hold_for_emergency">Hold for Emergency</string>
+    <string name="how_it_works">How it works</string>
+    <string name="im_safe">I\'m Safe</string>
+    <string name="immediate_danger_msg">Call 112 or your local emergency number immediately. Your safety is the top priority.</string>
+    <string name="in_immediate_danger">In immediate danger?</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="location_services_disabled">Location Services: Disabled</string>
+    <string name="location_services_enabled">Location Services: Enabled</string>
+    <string name="location_subtitle">Share your real-time location with emergency contacts</string>
+    <string name="location_title">Live Location</string>
+    <string name="name">Name</string>
+    <string name="nav_checkin">Check-In</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_fake_call">Fake Call</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_location">Location</string>
+    <string name="nav_tips">Tips</string>
+    <string name="no_contacts_hint">Add trusted contacts to receive alerts during emergencies</string>
+    <string name="no_contacts_sos">No emergency contacts added yet.</string>
+    <string name="no_emergency_contacts">No Emergency Contacts</string>
+    <string name="permission_required">Permission required</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="safety_status">Safety Status</string>
+    <string name="safety_tips">Safety Tips</string>
+    <string name="safety_tips_subtitle">Essential safety information and emergency resources</string>
+    <string name="save">Save</string>
+    <string name="select_duration">Select Duration</string>
+    <string name="set_timer">Set Timer</string>
+    <string name="sharing_active">Sharing Active</string>
+    <string name="sharing_inactive">Not Sharing</string>
+    <string name="sos">SOS</string>
+    <string name="sos_hint">Press and hold to send emergency alert to your trusted contacts</string>
+    <string name="sos_sent">SOS alert sent to your emergency contacts!</string>
+    <string name="start_fake_call">Start Fake Call</string>
+    <string name="start_sharing">Start Sharing</string>
+    <string name="status_active">Active</string>
+    <string name="stop_sharing">Stop Sharing</string>
+    <string name="tagline">Your Safety Companion</string>
+    <string name="timer_active">Timer Active</string>
+    <string name="timer_inactive">Timer Inactive</string>
+    <style name="CardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="PurpleButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="backgroundTint">@color/purple_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">26dp</item>
+    </style>
+    <style name="SOSButton">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">220dp</item>
+        <item name="android:background">@drawable/bg_sos_button</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="Theme.SafeGuard" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryDark">@color/purple_dark</item>
+        <item name="colorAccent">@color/purple_primary</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/purple_primary</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+    <style name="Theme.SafeGuard.FakeCall" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+</resources>

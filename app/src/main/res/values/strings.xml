@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SafeGuard</string>
+    <string name="app_name">SafeHer</string>
     <string name="tagline">Your Safety Companion</string>
     <string name="sos">SOS</string>
     <string name="hold_for_emergency">Hold for Emergency</string>

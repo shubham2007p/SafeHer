@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SafeGuard">
+        android:theme="@style/Theme.SafeHer">
 
         <activity
             android:name=".MainActivity"
@@ -30,7 +30,7 @@
             android:exported="false"
             android:showOnLockScreen="true"
             android:turnScreenOn="true"
-            android:theme="@style/Theme.SafeGuard.FakeCall" />
+            android:theme="@style/Theme.SafeHer.FakeCall" />
 
     </application>
 </manifest>

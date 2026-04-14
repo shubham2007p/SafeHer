@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_ic_warning.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/ic_warning.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_call_btn_green.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_call_btn_green.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/layout_fragment_location.xml.flat",
+        "source": "com.safeguard.app-main-54:/layout/fragment_location.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_danger_card.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_danger_card.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_ic_shield.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/ic_shield.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/layout_fragment_contacts.xml.flat",
+        "source": "com.safeguard.app-main-54:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/layout_activity_fake_call.xml.flat",
+        "source": "com.safeguard.app-main-54:/layout/activity_fake_call.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_ic_people.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/ic_people.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_call_btn_red.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_call_btn_red.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_sos_ring.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_sos_ring.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_badge_green.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_badge_green.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/layout_fragment_check_in.xml.flat",
+        "source": "com.safeguard.app-main-54:/layout/fragment_check_in.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/layout_item_contact.xml.flat",
+        "source": "com.safeguard.app-main-54:/layout/item_contact.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_sos_button.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_sos_button.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_input.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_ic_clock.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/ic_clock.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/color_nav_selector.xml.flat",
+        "source": "com.safeguard.app-main-54:/color/nav_selector.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.safeguard.app-main-54:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_button_purple.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_button_purple.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_caller_avatar.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_caller_avatar.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_spinner.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_spinner.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_ic_location.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/layout_fragment_fake_call.xml.flat",
+        "source": "com.safeguard.app-main-54:/layout/fragment_fake_call.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.safeguard.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_icon_circle_purple.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_icon_circle_purple.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/layout_activity_main.xml.flat",
+        "source": "com.safeguard.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_ic_phone_hangup.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/ic_phone_hangup.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_ic_phone.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.safeguard.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/layout_dialog_add_contact.xml.flat",
+        "source": "com.safeguard.app-main-54:/layout/dialog_add_contact.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/layout_fragment_home.xml.flat",
+        "source": "com.safeguard.app-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_ic_delete.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_ic_book.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/ic_book.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/drawable_bg_card.xml.flat",
+        "source": "com.safeguard.app-main-54:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.safeguard.app-debug-52:/layout_fragment_tips.xml.flat",
+        "source": "com.safeguard.app-main-54:/layout/fragment_tips.xml"
+    }
+]

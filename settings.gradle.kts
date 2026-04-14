@@ -16,5 +16,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SafeGuard"
+rootProject.name = "SafeHer"
 include(":app")

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Caller Info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="80dp">
+
+        <!-- Caller Avatar -->
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_caller_avatar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/incoming_call"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_caller_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Mom"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="80dp"
+        android:paddingHorizontal="40dp">
+
+        <!-- Decline -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btn_decline"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:background="@drawable/bg_call_btn_red"
+                android:padding="18dp"
+                android:src="@drawable/ic_phone_hangup"
+                android:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/decline"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Accept -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btn_accept"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:background="@drawable/bg_call_btn_green"
+                android:padding="18dp"
+                android:src="@drawable/ic_phone"
+                android:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/accept"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

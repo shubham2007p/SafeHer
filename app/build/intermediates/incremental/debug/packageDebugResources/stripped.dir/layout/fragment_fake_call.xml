@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="6dp"
+            android:text="@string/fake_call_title"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/fake_call_subtitle"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp" />
+
+        <!-- Config Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Caller Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/caller_name"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/et_caller_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_input"
+                    android:paddingHorizontal="14dp"
+                    android:text="Mom"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    android:inputType="textPersonName"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Call Delay -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call_delay"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_delay"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_spinner"
+                    android:paddingHorizontal="14dp"
+                    android:layout_marginBottom="20dp" />
+
+                <!-- Start Fake Call Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_start_fake_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:backgroundTint="@color/purple_primary"
+                    android:text="@string/start_fake_call"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:cornerRadius="26dp"
+                    app:icon="@drawable/ic_phone"
+                    app:iconTint="@color/white" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- How it works card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="#EDE9FE">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="12dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_phone"
+                        android:tint="@color/purple_primary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/how_it_works"
+                        android:textColor="@color/purple_dark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Choose a caller name and delay time"
+                    android:textColor="@color/purple_dark"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Tap 'Start Fake Call' to schedule a simulated incoming call"
+                    android:textColor="@color/purple_dark"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Answer or decline the fake call to exit uncomfortable situations"
+                    android:textColor="@color/purple_dark"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

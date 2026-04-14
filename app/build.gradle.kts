@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.safeguard.app"
+    namespace = "com.safeher.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.safeguard.app"
+        applicationId = "com.safeher.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

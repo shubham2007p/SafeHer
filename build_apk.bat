@@ -1,6 +1,6 @@
 @echo off
 echo ============================================
-echo  SafeGuard APK Builder
+echo  SafeHer APK Builder
 echo ============================================
 echo.
 
@@ -46,7 +46,7 @@ echo Done.
 echo.
 
 :: --- Build APK ---
-echo [STEP 3] Building SafeGuard APK...
+echo [STEP 3] Building SafeHer APK...
 call gradlew.bat assembleDebug
 echo.
 

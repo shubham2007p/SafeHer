@@ -6,32 +6,32 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.safeguard.app.ui.home.HomeFragment"
+        android:name="com.safeher.app.ui.home.HomeFragment"
         android:label="Home" />
 
     <fragment
         android:id="@+id/contactsFragment"
-        android:name="com.safeguard.app.ui.contacts.ContactsFragment"
+        android:name="com.safeher.app.ui.contacts.ContactsFragment"
         android:label="Contacts" />
 
     <fragment
         android:id="@+id/locationFragment"
-        android:name="com.safeguard.app.ui.location.LocationFragment"
+        android:name="com.safeher.app.ui.location.LocationFragment"
         android:label="Location" />
 
     <fragment
         android:id="@+id/fakeCallFragment"
-        android:name="com.safeguard.app.ui.fakecall.FakeCallFragment"
+        android:name="com.safeher.app.ui.fakecall.FakeCallFragment"
         android:label="Fake Call" />
 
     <fragment
         android:id="@+id/tipsFragment"
-        android:name="com.safeguard.app.ui.tips.TipsFragment"
+        android:name="com.safeher.app.ui.tips.TipsFragment"
         android:label="Tips" />
 
     <fragment
         android:id="@+id/checkInFragment"
-        android:name="com.safeguard.app.ui.checkin.CheckInFragment"
+        android:name="com.safeher.app.ui.checkin.CheckInFragment"
         android:label="Check-In" />
 
 </navigation>
